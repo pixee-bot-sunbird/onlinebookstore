@@ -63,7 +63,7 @@ public class ReceiptServlet extends HttpServlet {
                         break;
                     }
 
-                    if ("pay".equals(getChecked)) {
+                    if (getChecked.equals("pay")) {
                         pw.println("<tr><td>" + bCode + "</td>");
                         pw.println("<td>" + bName + "</td>");
                         pw.println("<td>" + bAuthor + "</td>");
